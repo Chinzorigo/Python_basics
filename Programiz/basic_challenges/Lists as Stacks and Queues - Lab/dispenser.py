@@ -1,5 +1,10 @@
 from collections import deque
 
+import numpy as np
+import pandas as pd
+import torch
+
+
 dispenser = int(input("Enter the number of water: "))
 
 customers = deque([])
